@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misiones a tu medida — Armá tu viaje con IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="brand">
+      <svg class="brand__leaf" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 40C6 24 16 8 40 8C40 30 28 40 8 40Z" fill="var(--verde)"/>
+        <path d="M9 39C13 27 20 18 38 10" stroke="var(--crema)" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <span>Misiones<em>a tu medida</em></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#destinos">Destinos</a>
+      <a href="#emprendedores">Para emprendedores</a>
+    </nav>
+    <a href="#probar" class="btn btn--sun">Armar mi viaje</a>
+    <button class="nav__burger" id="burger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav__mobile" id="navMobile">
+    <a href="#como-funciona">Cómo funciona</a>
+    <a href="#destinos">Destinos</a>
+    <a href="#emprendedores">Para emprendedores</a>
+    <a href="#probar" class="btn btn--sun">Armar mi viaje</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__text">
+    <p class="hero__kicker">🌿 Turismo inteligente, hecho en Misiones</p>
+    <h1>Contale a la selva<br>qué viaje soñás<br><span class="hero__underline">y ella te lo arma.</span></h1>
+    <p class="hero__sub">Escribís lo que buscás en una frase. Nuestra IA te arma un itinerario día por día, mezclando lo clásico con saltos, ferias y comunidades que todavía no salen en las guías.</p>
+    <div class="hero__cta">
+      <a href="#probar" class="btn btn--coral">Probar la demo</a>
+      <a href="#como-funciona" class="link-quiet">¿Cómo funciona? ↓</a>
+    </div>
+    <div class="hero__stats">
+      <div><strong>2M+</strong><span>turistas al año</span></div>
+      <div><strong>110+</strong><span>emprendimientos rurales</span></div>
+      <div><strong>64%</strong><span>busca naturaleza</span></div>
+    </div>
+  </div>
+
+  <div class="hero__art">
+    <svg class="blob" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <path fill="var(--verde)" d="M420,300Q430,400,330,440Q230,480,140,410Q50,340,70,230Q90,120,200,80Q310,40,390,130Q470,220,420,300Z"/>
+    </svg>
+    <svg class="blob blob--turquoise" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <path fill="var(--turquesa)" d="M400,260Q410,360,310,400Q210,440,140,360Q70,280,100,190Q130,100,230,90Q330,80,390,160Q450,240,400,260Z"/>
+    </svg>
+
+    <div class="mock-chat" id="probar">
+      <div class="mock-chat__bubble mock-chat__bubble--user">
+        Quiero una escapada tranquila, con naturaleza y comida típica, gastando poco 🌱
+      </div>
+      <div class="mock-chat__bubble mock-chat__bubble--ai">
+        <strong>Armé tu escapada de 2 días 🎒</strong>
+        <ul>
+          <li>🌊 Salto Encantado + mirador escondido</li>
+          <li>🍃 Almuerzo casero en feria de Aristóbulo</li>
+          <li>🧉 Tarde de yerba mate en un secadero familiar</li>
+        </ul>
+        <span class="mock-chat__tag">Presupuesto ajustado · sin apuro</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- wave divider -->
+<div class="wave" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path fill="var(--crema)" d="M0,32 C240,90 480,0 720,24 C960,48 1200,90 1440,40 L1440,90 L0,90 Z"/>
+  </svg>
+</div>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="como" id="como-funciona">
+  <h2>De la idea al itinerario, en tres pasos</h2>
+  <p class="section__sub">Nada de formularios eternos. Le contás a la app cómo te imaginás el viaje y ella hace el resto.</p>
+
+  <div class="pasos">
+    <div class="paso">
+      <div class="paso__num paso__num--verde">1</div>
+      <h3>Contás tu viaje ideal</h3>
+      <p>Con tus palabras: presupuesto, tiempo libre, con quién vas y qué te copa. Sin filtros ni checkboxes.</p>
+    </div>
+    <div class="paso">
+      <div class="paso__num paso__num--naranja">2</div>
+      <h3>La IA arma tu recorrido</h3>
+      <p>Cruza clima, distancias y oferta real de la zona para proponerte un itinerario día por día, con costos estimados.</p>
+    </div>
+    <div class="paso">
+      <div class="paso__num paso__num--turquesa">3</div>
+      <h3>Ajustás y salís a recorrer</h3>
+      <p>Charlás con el asistente para afinar detalles, subís una foto de referencia si querés, y listo: mapa y rutas a mano.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DESTINOS ================= -->
+<section class="destinos" id="destinos">
+  <div class="destinos__head">
+    <h2>Lugares que quedan fuera del recorrido de siempre</h2>
+    <p class="section__sub">Las Cataratas se llevan 3 de cada 4 visitas de la provincia. Te mostramos el otro 75% del mapa.</p>
+  </div>
+
+  <div class="carrusel">
+    <article class="tarjeta tarjeta--verde">
+      <span class="tarjeta__badge">Poco conocido</span>
+      <div class="tarjeta__icono">🌊</div>
+      <h3>Saltos escondidos</h3>
+      <p>Caídas de agua sobre ríos rojos, a metros de la ruta pero fuera del radar del turista apurado.</p>
+    </article>
+    <article class="tarjeta tarjeta--naranja">
+      <span class="tarjeta__badge">Sabores locales</span>
+      <div class="tarjeta__icono">🧉</div>
+      <h3>Ruta de la Yerba Mate</h3>
+      <p>Secaderos familiares, degustaciones y la historia productiva que sostiene a decenas de pueblos.</p>
+    </article>
+    <article class="tarjeta tarjeta--turquesa">
+      <span class="tarjeta__badge">Cultura viva</span>
+      <div class="tarjeta__icono">🏺</div>
+      <h3>Comunidades guaraníes</h3>
+      <p>Artesanías, gastronomía y relatos que ninguna guía masiva se toma el tiempo de contar bien.</p>
+    </article>
+    <article class="tarjeta tarjeta--amarillo">
+      <span class="tarjeta__badge">Fin de semana</span>
+      <div class="tarjeta__icono">🎪</div>
+      <h3>Ferias y agroturismo</h3>
+      <p>Productores rurales que abren sus chacras para mostrar cómo se vive y se produce en Misiones.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= DOS PÚBLICOS ================= -->
+<section class="publicos" id="emprendedores">
+  <div class="publico publico--turista">
+    <h2>Si viajás</h2>
+    <p>Armás un plan a tu medida en minutos, sin perder tiempo comparando veinte pestañas ni repitiendo el circuito de siempre.</p>
+    <ul>
+      <li>Itinerarios según tu presupuesto y tu tiempo</li>
+      <li>Ajuste automático según el clima</li>
+      <li>Buscá por estilo: subí una foto y encontrá lugares parecidos</li>
+    </ul>
+  </div>
+  <div class="publico publico--prestador">
+    <h2>Si tenés un emprendimiento</h2>
+    <p>Sumás tu propuesta a la plataforma y llegás a turistas que hoy ni saben que existís, sin depender de una agencia.</p>
+    <ul>
+      <li>Ficha simple, actualizable incluso por teléfono</li>
+      <li>Visibilidad junto a los grandes atractivos</li>
+      <li>Comisión solo cuando te llega una reserva</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="cta-final">
+  <h2>Misiones tiene mucho más que Cataratas.</h2>
+  <p>Ayudanos a repartir el mapa turístico de la provincia, un itinerario a la vez.</p>
+  <a href="#probar" class="btn btn--sun btn--grande">Armar mi viaje ahora</a>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="brand brand--footer">
+      <svg class="brand__leaf" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 40C6 24 16 8 40 8C40 30 28 40 8 40Z" fill="var(--amarillo)"/>
+        <path d="M9 39C13 27 20 18 38 10" stroke="var(--tierra)" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <span>Misiones<em>a tu medida</em></span>
+    </div>
+    <p class="footer__nota">Prototipo de interfaz — proyecto de inversión TIC, Posadas, Misiones.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
