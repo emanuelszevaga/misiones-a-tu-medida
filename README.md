@@ -2,7 +2,7 @@
 
 **Plataforma de turismo inteligente basada en IA para personalizar y descentralizar el turismo en la provincia de Misiones, Argentina.**
 
-> Proyecto de inversión TIC — Este repositorio contiene, por ahora, el **prototipo de interfaz (front end)** del producto. No incluye backend, IA ni lógica funcional: es una maqueta navegable para validar la propuesta visual.
+> Este repositorio contiene, por ahora, el **prototipo de interfaz (front end)** del producto. No incluye backend, IA ni lógica funcional: es una maqueta navegable para validar la propuesta visual.
 
 ---
 
